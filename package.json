@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "typed.js": "^2.0.16"
+  }
+}

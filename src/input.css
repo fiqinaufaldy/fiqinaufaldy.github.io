@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Scrollbar Style */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #393e46;
+    border-radius: 15px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #585f6c;
+  }
+  /* Scrollbar Style */
+
+  /* universal style */
+  .border-style {
+    @apply hidden my-3 border-t border-gray-300 xl:flex;
+  }
+  /* universal style */
+
+  /* Menu Style */
+  .menu-active {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg bg-[#393E46];
+  }
+  .menu-not-active {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-[#393E46] hover:lg:rounded-lg lg:hover:scale-105 lg:transition-all lg:duration-300;
+  }
+  .menu-mobile-active {
+    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg bg-[#393E46] md:py-4 md:rounded-xl;
+  }
+
+  .menu-mobile-not-active {
+    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg hover:bg-[#393E46] transition-all md:py-4 md:rounded-xl;
+  }
+  .social-media-hover {
+    @apply transition duration-300 text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 hover:dark:text-neutral-300 lg:hover:scale-110;
+  }
+  /* Menu Style */
+
+  /* Certificate Style */
+  .card-certi-links {
+    @apply flex items-center gap-1 underline duration-300 cursor-pointer hover:gap-2 hover:text-[#EEEEEE];
+  }
+
+  .card-certi-bg {
+    @apply flex items-center gap-5 px-6 py-4 transition-all duration-300 border shadow-sm rounded-xl lg:hover:shadow-md border-[#393E46] bg-[#393E46] hover:scale-[102%];
+  }
+  /* Certificate Style */
+
+  /* Project Page Style */
+  .project-card-bg {
+    @apply rounded-xl transition-all duration-300 shadow-sm lg:hover:shadow-md relative border bg-[#393E46] border-[#393E46] lg:hover:scale-[102%] cursor-pointer;
+  }
+
+  .project-card-title-hover {
+    @apply text-lg transition-all duration-300 cursor-pointer  text-neutral-300 hover:text-[#00ADB5];
+  }
+  /* Project Page Style */
+
+  /* education page style */
+  .image-edu-style {
+    @apply absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8  ring-gray-900;
+  }
+
+  .edu-title {
+    @apply text-base md:text-lg font-semibold text-white;
+  }
+
+  .cllick-effect {
+    box-shadow: 0 0 0 0;
+  }
+
+  .cllick-effect:hover {
+    box-shadow: 7px 8px 0 0 #266669;
+    transform: translateY(-4px);
+  }
+
+  .cllick-effect:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0;
+  }
+
+  /* learn style */
+  .learn-card-bg {
+    @apply flex items-center justify-between bg-[#393E46] py-3 px-4 md:px-6 rounded-lg hover:scale-[102%] duration-300;
+  }
+
+  .learn-date {
+    @apply text-xs md:text-sm bg-[#444a54] py-1 px-3 rounded-xl;
+  }
+  /* learn style */
+}
