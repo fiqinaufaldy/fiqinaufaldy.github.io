@@ -74,8 +74,8 @@ closeMenuBtn.addEventListener("click", () => {
 
 //! message system start
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbzRsm9eqhKFh8luEkcRHjYvkPKDVRq7n98ECuc6l8XVerSVpEqXiXukBOBVMFkf52lk-g/exec";
-const form = document.forms["artahendraa-contact-form"];
+  "https://script.google.com/macros/s/AKfycbw2Uz-0pMq6-vkaPugqPM7Dh5zwC9HtY0yBxX_qhNmgqQF47V-34QkdmWW93cAFyqYHYA/exec";
+const form = document.forms["fiqinaufaldy-contact-form"];
 
 const btnSubmit = document.querySelector("#send-button");
 const btnLoading = document.querySelector("#loading-btn");
