@@ -1,6 +1,6 @@
 # Personal Website <a href='https://fiqinaufaldy/home.html'>fiqinaufaldy.github.io</a>
 
-![Screenshot 2023-09-19 143606](public/assets/images/images-project/pw.PNG)
+![pw](public/assets/images/images-project/pw.PNG)
 
 ## Teck Stack
 
